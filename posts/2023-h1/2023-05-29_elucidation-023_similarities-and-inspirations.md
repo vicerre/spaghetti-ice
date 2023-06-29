@@ -1,0 +1,38 @@
+---
+tags:
+  - inspirations
+---
+
+# Elucidation 023 – Similarities and Inspirations
+
+This blog has previously made references to other works of media related to my work <sup>[1](../2022/2022-10-12_illustration-032_fighting-game-palettes.md), [2](2023-02-12_illustration-043_fighting-game-palettes.md)</sup>. However, I've yet to compile these works into a single post.
+
+This post acts as a living document of these similarities and inspirations.
+
+## Inspirations
+
+- _AdventureQuest_
+- _Blood Stain_
+- _Kingdom Hearts_
+- _Pokémon Black and White_
+
+## Major similarities
+
+- _Doctor Who_
+- _Persona 5 Royal_
+- _Steins;Gate_
+
+## Minor similarities
+
+- _Corpus Mali_
+- _Danganronpa 2_
+- _Neon Genesis Evangelion_
+- _Paprika_
+
+<!--
+## Trope-relevant
+
+- _The Matrix_
+- _Phoenix Wright_
+- _Rick and Morty_
+-->
