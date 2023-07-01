@@ -84,7 +84,7 @@
 >
 > He pauses, then tosses a light shrug at Alis, as though applauding him on the surprise accomplishment.
 >
-> "Well, thrice now."
+> "Well, three instances now."
 
 ---
 
