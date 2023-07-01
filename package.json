@@ -10,6 +10,7 @@
   },
   "scripts": {
     "all": "npm run format && npm run test && npm run validate",
+    "count": "find posts -name '*.md' | xargs wc -w | tail -1",
     "format": "npm run --silent listdiffed | xargs npm run --silent formatbase",
     "formatbase": "npx prettier --write",
     "listdiffed": "git rev-parse HEAD | xargs git diff-tree --diff-filter=ACMRTU --no-commit-id --name-only -r",
