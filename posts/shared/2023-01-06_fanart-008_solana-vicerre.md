@@ -1,0 +1,13 @@
+---
+tags:
+  - solana
+  - vicerre
+---
+
+# Fanart 008
+
+<img src="assets/2023-01-06_fanimage-008.jpg">
+
+- Artist: Mova
+- Subject: Solana, Vicerre
+- Type: commission
