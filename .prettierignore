@@ -1,6 +1,9 @@
 *.gif
 *.jpg
 *.png
+*.py
 
 .gitignore
 .prettierignore
+
+requirements.txt

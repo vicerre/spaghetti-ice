@@ -13,9 +13,10 @@
     "yaml": "2.3.1"
   },
   "scripts": {
-    "all": "npm run format && npm run test && npm run validate",
+    "all": "npm run format && npm run formatpython && npm run test && npm run validate",
     "format": "npm run --silent listdiffed | xargs npm run --silent formatbase",
     "formatbase": "npx prettier --write",
+    "formatpython": "find data_analytics -name '*.py' | xargs black",
     "listdiffed": "git rev-parse HEAD | xargs git diff-tree --diff-filter=ACMRTU --no-commit-id --name-only -r",
     "test": "npx jest",
     "validate": "npx ts-node scripts/main.ts"
