@@ -1,7 +1,10 @@
 *.gif
 *.jpg
 *.png
+*.py
 
 .gitattributes
 .gitignore
 .prettierignore
+
+requirements.txt
