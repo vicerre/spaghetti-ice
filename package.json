@@ -14,6 +14,7 @@
   },
   "scripts": {
     "all": "npm run format && npm run formatpython && npm run test && npm run validate",
+    "count": "find posts -name '*.md' | xargs wc -w | tail -1",
     "format": "npm run --silent listdiffed | xargs npm run --silent formatbase",
     "formatbase": "npx prettier --write",
     "formatpython": "find data_analytics -name '*.py' | xargs black",
