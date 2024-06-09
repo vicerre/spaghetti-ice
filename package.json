@@ -14,12 +14,15 @@
     "yaml": "2.3.1"
   },
   "scripts": {
-    "all": "npm run pythonformat && npm run format && npm run test && npm run validate",
+    "all": "npm run pythonformat && npm run pythontest && npm run format && npm run test && npm run validate",
+    "count": "find posts -name '*.md' | xargs wc -w | tail -1",
+    "counts": "grep -lr $s posts | wc -l",
     "format": "npm run --silent listdiffed | xargs npm run --silent formatbase",
     "formatall": "npx prettier --write posts",
     "formatbase": "npx prettier --write",
     "listdiffed": "git rev-parse HEAD | xargs git diff-tree --diff-filter=ACMRTU --no-commit-id --name-only -r",
     "pythonformat": "find data_analytics -name '*.py' | xargs black",
+    "pythontest": "python -m unittest discover -s data_analytics -p \"*_test.py\"",
     "test": "npx jest",
     "validate": "npx ts-node validation/main.ts"
   }
