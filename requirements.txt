@@ -1,1 +1,8 @@
 black
+calplot
+click
+matplotlib
+mistletoe
+lxml
+pysbd
+scikit-learn
