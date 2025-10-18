@@ -1,0 +1,18 @@
+#! /usr/bin/env bash
+
+set -euxo pipefail
+
+POSTS_DIR=posts
+
+dirs=$(ls $POSTS_DIR)
+
+for dir in $dirs; # https://stackoverflow.com/a/72792173/
+do
+  git add "$POSTS_DIR/$dir"
+
+  # If staged changes exist, commit them.
+  # https://stackoverflow.com/a/1587877/
+  if ! git diff --cached --quiet; then
+    git commit -m "TODO: $dir"
+  fi
+done
